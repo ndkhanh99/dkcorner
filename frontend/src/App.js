@@ -7,7 +7,6 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-
           This website belongs to Khanh Duy Nguyen!
         </p>
         <a
