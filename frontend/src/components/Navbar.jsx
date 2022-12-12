@@ -9,8 +9,14 @@ const Navbar = () => {
         setNav(!nav);
     };
 
+    var srollEvent = true;
+    var NewClass = srollEvent === true ? 'flex sticky top-0 justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white' : 'flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white';
+
+
+    // var NewClass = photo.clicked == true ? 'btn btn-secondary btn-lg rounded-pill btn-outline-light' : 'btn btn-secondary btn-lg rounded-pill btn-outline-light pe-none';
+
     return (
-        <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white'>
+        <div className={NewClass}>
             <h1 className='w-full text-3xl font-bold text-[#ffed61]'>Kcorner</h1>
             <ul className='hidden md:flex'>
                 <li className='p-4'>Home</li>
