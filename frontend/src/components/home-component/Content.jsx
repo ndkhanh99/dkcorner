@@ -22,7 +22,8 @@ const Content = () => {
         <div className='text-white'>
             <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
                 <p className='text-[#ffed61] font-bold p-2'>
-                    GROWING WITH DATA ANALYTICS
+
+                    BUILDING YOUR FIRST WEBSITE
                 </p>
                 <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>
                     Grow with data.

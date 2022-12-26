@@ -1,5 +1,5 @@
 import React from 'react';
-import Laptop from '../assets/laptop.jpeg';
+import Laptop from '../../assets/laptop.jpeg';
 
 const Product = () => {
     return (

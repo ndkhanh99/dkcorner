@@ -11,11 +11,11 @@ const Footer = () => {
     return (
         <div className='max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
             <div>
-                <h1 className='w-full text-3xl font-bold text-[#ffed61]'>Kcorner</h1>
+                <h1 className='w-full text-2xl font-bold text-[#ffed61]'>Powered by <a href='https://www.facebook.com/profile.php?id=100014373878417'>NDK</a></h1>
                 <p className='py-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id odit ullam iste repellat consequatur libero reiciendis, blanditiis accusantium.</p>
                 <div className='flex justify-between md:w-[75%] my-6'>
-                    <FaFacebookSquare size={30} />
-                    <FaInstagram size={30} />
+                    <a href='https://www.facebook.com/profile.php?id=100014373878417'><FaFacebookSquare size={30} /></a>
+                    <a href='https://www.facebook.com/profile.php?id=100014373878417'><FaInstagram size={30} /></a>
                     <FaTwitterSquare size={30} />
                     <FaGithubSquare size={30} />
                     <FaDribbbleSquare size={30} />

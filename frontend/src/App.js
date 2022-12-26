@@ -1,20 +1,23 @@
 import React from "react";
-import Cards from "./components/Cards";
-import Content from "./components/Content";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import Newmessage from "./components/Newmessage";
-import Product from "./components/Product";
+import { Routes, Route } from 'react-router-dom';
+import Navbar from "./components/home-component/Navbar";
+import HomePage from "./components/pages/Home";
+import CompanyPage from "./components/pages/Company";
+import AboutPage from "./components/pages/About";
+import ProductPage from "./components/pages/Product";
+import ContactPage from "./components/pages/Contact";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <Content />
-      <Product />
-      <Newmessage />
-      <Cards />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/company" element={<CompanyPage />} />
+        <Route path="/product" element={<ProductPage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+      </Routes>
     </div>
   );
 }

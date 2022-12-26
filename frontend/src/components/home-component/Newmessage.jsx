@@ -12,7 +12,7 @@ const Newmessage = () => {
                     </h1>
                     <p>Sign up to our newsletter and stay up to date.</p>
                 </div>
-                <div className='my-4'>
+                <div className='my-2'>
                     <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
                         <input
                             className='p-3 flex w-full rounded-md text-black'
@@ -24,7 +24,7 @@ const Newmessage = () => {
                         </button>
                     </div>
                     <p>
-                        We care bout the protection of your data. Read our{' '}
+                        Please don't fill your email because we have not finished yet. Read our{' '}
                         <span className='text-[#ffed61]'>Privacy Policy.</span>
                     </p>
                 </div>
