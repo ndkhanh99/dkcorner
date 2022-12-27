@@ -3,7 +3,7 @@ import Single from '../../assets/avatar.png';
 import Double from '../../assets/double.png';
 import Triple from '../../assets/triple.png';
 import Python from '../../assets/python1.png';
-import Laravel from '../../assets/laravel-logo.jpeg';
+import Laravel from '../../assets/la-ravel.png';
 import Reactjs from '../../assets/images.png';
 
 const Cards = () => {
@@ -22,7 +22,7 @@ const Cards = () => {
                     <button className='bg-[#ffed61] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
                 </div>
                 <div className='w-full shadow-xl bg-gray-100 flex flex-col p-4 md:my-0 my-8 rounded-lg hover:scale-105 duration-300'>
-                    <img className='w-25 mx-auto mt-[-3rem] bg-white rounded-lg' src={Laravel} alt="/" />
+                    <img className='w-25 mx-auto mt-[-2rem] bg-transparent rounded-lg' src={Laravel} alt="/" />
                     <h2 className='text-2xl font-bold text-center py-8'>Single User</h2>
                     <p className='text-center text-4xl font-bold'>$139</p>
                     <div className='text-center font-medium'>
@@ -33,7 +33,7 @@ const Cards = () => {
                     <button className='bg-black text-[#ffed61] w-[200px] rounded-md font-medium my-6 mx-auto px-6 py-3'>Start Trial</button>
                 </div>
                 <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg hover:scale-105 duration-300'>
-                    <img className='w-25 mx-auto mt-[-10px] bg-white' src={Reactjs} alt="/" />
+                    <img className='w-25 mx-auto mt-[-12px] bg-white' src={Reactjs} alt="/" />
                     <h2 className='text-2xl font-bold text-center py-8 mt-[25px]'>Single User</h2>
                     <p className='text-center text-4xl font-bold'>$139</p>
                     <div className='text-center font-medium'>
