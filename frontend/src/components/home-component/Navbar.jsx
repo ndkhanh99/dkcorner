@@ -19,9 +19,9 @@ const Navbar = () => {
 
     return (
         <div className={NewClass}>
-            <div className='flex flex-row'>
-                <FaKorvue className={scrollPosition > 0 ? 'w-full text-3xl font-bold text-black mt-[5px]' : 'w-full text-3xl font-bold text-[#ffed61] mt-[5px]'} size={30} />
-                <h1 className={scrollPosition > 0 ? 'w-full text-3xl font-bold text-black' : 'w-full text-3xl font-bold text-[#ffed61]'}>corner</h1>
+            <div className='flex flex-row text-3xl'>
+                <FaKorvue className={scrollPosition > 0 ? 'font-bold text-black mt-[5px]' : 'font-bold text-[#ffed61] mt-[5px]'} size={30} />
+                <h1 className={scrollPosition > 0 ? 'w-full font-bold text-black' : 'w-full text-3xl font-bold text-[#ffed61]'}>corner</h1>
             </div>
             <ul className={scrollPosition > 0 ? 'hidden md:flex text-black' : 'hidden md:flex'}>
                 <li className='p-4 hover:text-yellow-300'><Link to='/'>Home</Link></li>

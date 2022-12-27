@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9f15efa2.css",
-    "main.js": "/static/js/main.0a970f9e.js",
+    "main.js": "/static/js/main.ac1f4436.js",
     "static/media/laptop.jpeg": "/static/media/laptop.45ddf500e572fb2f1d35.jpeg",
     "static/media/laravel-logo.jpeg": "/static/media/laravel-logo.cf773d1a1ad020625e31.jpeg",
     "static/media/avatar.png": "/static/media/avatar.20196aa3e7e7fa48f8f7.png",
@@ -9,10 +9,10 @@
     "static/media/triple.png": "/static/media/triple.4eb8f19f4b4647321484.png",
     "index.html": "/index.html",
     "main.9f15efa2.css.map": "/static/css/main.9f15efa2.css.map",
-    "main.0a970f9e.js.map": "/static/js/main.0a970f9e.js.map"
+    "main.ac1f4436.js.map": "/static/js/main.ac1f4436.js.map"
   },
   "entrypoints": [
     "static/css/main.9f15efa2.css",
-    "static/js/main.0a970f9e.js"
+    "static/js/main.ac1f4436.js"
   ]
 }
