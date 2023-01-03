@@ -11,6 +11,6 @@ urlpatterns = [
     path('product', views.index, name='product'),
     path('about', views.index, name='about'),
     path('contact', views.index, name='contact'),
-    path('test', MenuListView.as_view(), name='test'),
-    path('test-ip', views.test, name='test-ip'),
+    path('add-menuitems', MenuListView.as_view(), name='test'),
+    path('get-menuitems', views.getMenuItems, name='get-meunuitems'),
 ]

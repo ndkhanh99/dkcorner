@@ -6,6 +6,7 @@ from django.contrib.auth.models import User
 class MenuItems(models.Model):
     
     name = models.CharField(max_length=250)
+    path = models.CharField(max_length=50)
     # created_by = models.ForeignKey(User, on_delete = models.CASCADE)
     created_by = models.CharField(max_length=50)
     updated_at = models.DateTimeField(auto_now = True)
