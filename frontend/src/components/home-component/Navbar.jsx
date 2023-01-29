@@ -11,7 +11,7 @@ const Navbar = () => {
     useEffect(() => { getMenuItems() }, []);
 
     async function getMenuItems() {
-        const response = await fetch('/get-menuitems');
+        const response = await fetch('http://127.0.0.1:8000/get-menuitems');
         // waits until the request completes...
         // console.log(response);
         const data = await response.json();
